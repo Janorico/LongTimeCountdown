@@ -1,0 +1,6 @@
+<svg width="2000" height="2000" viewBox="0 0 2000 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path id="OuterMarkings" stroke="#FFFFFF"
+            d="M 180,380 380,180 h 1240 l 200,200 v 1240 l -200,200 H 380 L 180,1620 Z m 40,40 200,-200 h 1160 l 200,200 v 1160 l -200,200 H 420 L 220,1580 Z"/>
+    <path id="CenterMarkings" stroke="#FFFFFF" stroke-dasharray="100, 100"
+          d="M 200,400 400,200 h 1200 l 200,200 v 1200 l -200,200 H 400 L 200,1600 Z"/>
+</svg>

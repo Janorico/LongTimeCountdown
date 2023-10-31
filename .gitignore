@@ -1,0 +1,7 @@
+# Godot 4+ specific ignores
+*.translation
+.godot/
+export_presets.cfg
+
+# Visual Studio specific ignores
+.vs/

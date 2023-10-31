@@ -1,0 +1,48 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="LongTimeCountdown"
+run/main_scene="res://game/main.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Janorico/LongTimeCountdown"
+config/features=PackedStringArray("4.1", "C#")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/image="res://assets/logo/boot_splash.png"
+config/icon="res://assets/logo/icon.png"
+config/windows_native_icon="res://assets/logo/icon.ico"
+boot_splash/minimum_display_time=2000
+config/version="1.0-stable"
+
+[debug]
+
+file_logging/log_path="user://logs/ltc.log"
+file_logging/log_path.debug="user://logs/ltc.debug.log"
+
+[display]
+
+window/size/mode=2
+window/size/mode.debug=0
+
+[dotnet]
+
+project/assembly_name="LongTimeCountdown"
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://assets/translation/translation.en.translation", "res://assets/translation/translation.de.translation")
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0, 0.5, 0, 1)
+anti_aliasing/quality/msaa_3d=3
+anti_aliasing/quality/screen_space_aa=1
+anti_aliasing/quality/use_taa=true

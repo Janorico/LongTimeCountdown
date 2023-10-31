@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxm6ydff46hul"]
+
+[ext_resource type="PackedScene" uid="uid://57utj75ewj6n" path="res://assets/car/suvLuxury.glb" id="1_01tht"]
+
+[node name="SuvLuxury" instance=ExtResource("1_01tht")]
+
+[node name="Camera3D" type="Camera3D" parent="." index="1"]
+transform = Transform3D(-0.906311, 0.109382, -0.408219, 0, 0.965926, 0.25882, 0.42262, 0.23457, -0.875429, -2.5, 1, -5.5)
+
+[node name="LeftFrontLight" type="SpotLight3D" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.7, -1.25)
+light_energy = 16.0
+spot_range = 10.0
+spot_angle = 20.0
+
+[node name="RightFrontLight" type="SpotLight3D" parent="." index="3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 0.7, -1.25)
+light_energy = 16.0
+spot_range = 10.0
+spot_angle = 20.0
+
+[node name="RightBackLight" type="SpotLight3D" parent="." index="4"]
+transform = Transform3D(-1, 0, -8.7423e-08, 0, 1, 0, 8.7423e-08, 0, -1, 0.45, 0.75, 1.4)
+light_color = Color(1, 0, 0, 1)
+light_energy = 6.0
+spot_range = 10.0
+spot_angle = 20.0
+
+[node name="LetfBackLight" type="SpotLight3D" parent="." index="5"]
+transform = Transform3D(-1, 0, -8.7423e-08, 0, 1, 0, 8.7423e-08, 0, -1, -0.45, 0.75, 1.4)
+light_color = Color(1, 0, 0, 1)
+light_energy = 6.0
+spot_range = 10.0
+spot_angle = 20.0
