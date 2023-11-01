@@ -21,3 +21,6 @@
 ## Sources
 
 * Car: https://kenney.nl/assets/car-kit - SUV Luxury
+
+## Developer Info
+This software is created with [Godot v4.1.2.stable.mono.official](https://godotengine.org/download/archive/4.1.2-stable/).
